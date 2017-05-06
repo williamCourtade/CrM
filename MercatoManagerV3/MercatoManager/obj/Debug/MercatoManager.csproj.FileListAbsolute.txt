@@ -59,3 +59,16 @@ D:\Users\WILLIAM\Desktop\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManage
 D:\Users\WILLIAM\Desktop\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.csproj.GenerateResource.Cache
 D:\Users\WILLIAM\Desktop\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.exe
 D:\Users\WILLIAM\Desktop\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.pdb
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\bin\Debug\MercatoManager.exe.config
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.exe
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.pdb
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\bin\Debug\MercatoManager.exe
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\bin\Debug\MercatoManager.pdb
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.csprojResolveAssemblyReference.cache
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.ChoixEquipe.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.formPrincipal.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.Match.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.Properties.Resources.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.transfert.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.VendreJoueur.resources
+D:\Users\WILLIAM\Desktop\CrM\MercatoManagerV3\MercatoManager\obj\Debug\MercatoManager.csproj.GenerateResource.Cache

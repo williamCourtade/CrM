@@ -21,7 +21,7 @@ namespace MercatoManager
 
             InitializeComponent();
             //laConnection.ConnectionString = "Data Source= S458-139-1\\SQLSERVER;Initial Catalog=collectorManager;Integrated Security=True";
-            laConnection.ConnectionString = "Data Source= PC-DE-WILLIAM\\SQLSERVER;Initial Catalog=collectorManager;Integrated Security=True";
+            laConnection.ConnectionString = "Data Source=PC-DE-WILLIAM;Initial Catalog=collectorManager;Integrated Security=True";
         }
 
         //A chaque changement d'équipe sélectionnée dans la listbox
