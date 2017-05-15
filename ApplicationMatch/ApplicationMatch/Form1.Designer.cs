@@ -35,6 +35,7 @@
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_time = new System.Windows.Forms.Label();
+            this.lbl_equipe1 = new System.Windows.Forms.Label();
             this.gb_info.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -42,9 +43,9 @@
             // gb_info
             // 
             this.gb_info.Controls.Add(this.lbl_info);
-            this.gb_info.Location = new System.Drawing.Point(21, 24);
+            this.gb_info.Location = new System.Drawing.Point(22, 137);
             this.gb_info.Name = "gb_info";
-            this.gb_info.Size = new System.Drawing.Size(375, 337);
+            this.gb_info.Size = new System.Drawing.Size(375, 350);
             this.gb_info.TabIndex = 0;
             this.gb_info.TabStop = false;
             this.gb_info.Text = "Temps forts ";
@@ -67,9 +68,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(475, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(462, 137);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(180, 151);
+            this.pictureBox1.Size = new System.Drawing.Size(211, 212);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -77,18 +78,29 @@
             // lbl_time
             // 
             this.lbl_time.AutoSize = true;
-            this.lbl_time.Font = new System.Drawing.Font("Game of Thrones", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_time.Location = new System.Drawing.Point(529, 114);
+            this.lbl_time.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_time.Location = new System.Drawing.Point(515, 263);
             this.lbl_time.Name = "lbl_time";
-            this.lbl_time.Size = new System.Drawing.Size(76, 29);
+            this.lbl_time.Size = new System.Drawing.Size(103, 40);
             this.lbl_time.TabIndex = 2;
             this.lbl_time.Text = "00:00";
+            // 
+            // lbl_equipe1
+            // 
+            this.lbl_equipe1.AutoSize = true;
+            this.lbl_equipe1.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_equipe1.Location = new System.Drawing.Point(12, 25);
+            this.lbl_equipe1.Name = "lbl_equipe1";
+            this.lbl_equipe1.Size = new System.Drawing.Size(661, 55);
+            this.lbl_equipe1.TabIndex = 3;
+            this.lbl_equipe1.Text = "EQUIPE 1  SCORE EQUIPE2";
             // 
             // Match
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(737, 373);
+            this.ClientSize = new System.Drawing.Size(790, 499);
+            this.Controls.Add(this.lbl_equipe1);
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.gb_info);
@@ -109,6 +121,7 @@
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbl_time;
+        private System.Windows.Forms.Label lbl_equipe1;
     }
 }
 
