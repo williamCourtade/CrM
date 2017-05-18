@@ -93,6 +93,17 @@ namespace ApplicationMatch
 
         Random rnd = new Random();
 
+        private void unCorner()
+        {
+            int aleatoire = rnd.Next(1, 100);
+            string txt = "";
+            if (aleatoire < 75)
+                txt = "Le défenseur dégage le ballon de la tête";
+            else
+                txt = "But de l'attaquant !!!";
+            lbl_info.Text += Environment.NewLine + minute + "' : " + txt;
+        }
+
         private void unCoupFranc()
         {
             int aleatoire = rnd.Next(1, 100);
@@ -134,12 +145,18 @@ namespace ApplicationMatch
             pourcent = rnd.Next(1, 100);
             if (minute != 45)
             {
-                if (pourcent < 20)
-                {
-                    lbl_info.Text += Environment.NewLine + minute + "' : " + actionAleatoire();
-                }
                 if (minute == 90)
+                {
                     lbl_info.Text += Environment.NewLine + minute + "' : Fin du match";
+                }
+                else
+                {
+                    if (pourcent < 20)
+                    {
+                        lbl_info.Text += Environment.NewLine + minute + "' : " + actionAleatoire();
+                        
+                    }
+                }
             }
             else
                 lbl_info.Text += Environment.NewLine + minute + "' : Mi-Temps";

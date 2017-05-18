@@ -36,16 +36,18 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_time = new System.Windows.Forms.Label();
             this.lbl_equipe1 = new System.Windows.Forms.Label();
+            this.pnl_tempsFort = new System.Windows.Forms.Panel();
             this.gb_info.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnl_tempsFort.SuspendLayout();
             this.SuspendLayout();
             // 
             // gb_info
             // 
-            this.gb_info.Controls.Add(this.lbl_info);
-            this.gb_info.Location = new System.Drawing.Point(22, 137);
+            this.gb_info.Controls.Add(this.pnl_tempsFort);
+            this.gb_info.Location = new System.Drawing.Point(12, 99);
             this.gb_info.Name = "gb_info";
-            this.gb_info.Size = new System.Drawing.Size(375, 350);
+            this.gb_info.Size = new System.Drawing.Size(376, 250);
             this.gb_info.TabIndex = 0;
             this.gb_info.TabStop = false;
             this.gb_info.Text = "Temps forts ";
@@ -53,11 +55,11 @@
             // lbl_info
             // 
             this.lbl_info.AutoSize = true;
-            this.lbl_info.Location = new System.Drawing.Point(6, 26);
+            this.lbl_info.Location = new System.Drawing.Point(6, 0);
             this.lbl_info.Name = "lbl_info";
-            this.lbl_info.Size = new System.Drawing.Size(102, 13);
+            this.lbl_info.Size = new System.Drawing.Size(84, 13);
             this.lbl_info.TabIndex = 0;
-            this.lbl_info.Text = "0\' : Engagement de ";
+            this.lbl_info.Text = "0\' : Engagement";
             // 
             // timer
             // 
@@ -95,11 +97,20 @@
             this.lbl_equipe1.TabIndex = 3;
             this.lbl_equipe1.Text = "EQUIPE 1  SCORE EQUIPE2";
             // 
+            // pnl_tempsFort
+            // 
+            this.pnl_tempsFort.AutoScroll = true;
+            this.pnl_tempsFort.Controls.Add(this.lbl_info);
+            this.pnl_tempsFort.Location = new System.Drawing.Point(6, 16);
+            this.pnl_tempsFort.Name = "pnl_tempsFort";
+            this.pnl_tempsFort.Size = new System.Drawing.Size(364, 225);
+            this.pnl_tempsFort.TabIndex = 4;
+            // 
             // Match
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(790, 499);
+            this.ClientSize = new System.Drawing.Size(790, 424);
             this.Controls.Add(this.lbl_equipe1);
             this.Controls.Add(this.lbl_time);
             this.Controls.Add(this.pictureBox1);
@@ -107,8 +118,9 @@
             this.Name = "Match";
             this.Text = "Match";
             this.gb_info.ResumeLayout(false);
-            this.gb_info.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnl_tempsFort.ResumeLayout(false);
+            this.pnl_tempsFort.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,6 +134,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbl_time;
         private System.Windows.Forms.Label lbl_equipe1;
+        private System.Windows.Forms.Panel pnl_tempsFort;
     }
 }
 
